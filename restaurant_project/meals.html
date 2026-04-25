@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم قصر النكهات | قائمة الأطباق</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="glass-header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>👑 قصر النكهات</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="home.html">🏠 الرئيسية</a></li>
+                    <li><a href="aboutus.html">✨ من نحن</a></li>
+                    <li><a href="meals.html" class="active">🍽️ قائمة أطباقنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-bg menu-page">
+        <div class="container padding-top-heavy">
+            <div class="text-center slide-up">
+                <h2 class="gradient-title mega-title">قائمة الطعام الملكية 👑</h2>
+                <p class="subtitle">اختر أطباقك المفضلة واستمتع بتجربة لا تُضاهى</p>
+            </div>
+
+            <div class="table-wrapper glass-card mt-4 fade-in">
+                <table class="premium-table" id="meals-table">
+                    <thead>
+                        <tr>
+                            <th>🔢 الرمز</th>
+                            <th>🍲 اسم الوجبة</th>
+                            <th>💰 السعر</th>
+                            <th>🔍 التفاصيل</th>
+                            <th>✅ اختيار</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="main-row">
+                            <td><span class="badge-code">SF-01</span></td>
+                            <td class="meal-title">سمك بوري مشوي فاخر</td>
+                            <td class="price-tag">120,000 ل.س</td>
+                            <td><button type="button" class="btn-outline toggle-details">عرض التفاصيل</button></td>
+                            <td>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" class="meal-check" value="سمك بوري مشوي فاخر">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr class="details-row">
+                            <td colspan="5">
+                                <div class="details-panel">
+                                    <img src="images/fish.jpg.png" alt="سمك" class="food-img">
+                                    <div class="food-info">
+                                        <p><span class="icon">👨‍🍳</span> <strong>المطبخ:</strong> مأكولات بحرية عالمية</p>
+                                        <p><span class="icon">⭐</span> <strong>التصنيف:</strong> طبق رئيسي مميز</p>
+                                        <p><span class="icon">🌿</span> <strong>المكونات:</strong> سمك بوري طازج، تتبيلة الليمون والأعشاب، زيت زيتون بكر</p>
+                                        <p><span class="icon">🥣</span> <strong>الصلصة:</strong> طرطور فاخر</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="main-row">
+                            <td><span class="badge-code">SH-02</span></td>
+                            <td class="meal-title">طاجن روبيان مغربي</td>
+                            <td class="price-tag">145,000 ل.س</td>
+                            <td><button type="button" class="btn-outline toggle-details">عرض التفاصيل</button></td>
+                            <td>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" class="meal-check" value="طاجن روبيان مغربي">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr class="details-row">
+                            <td colspan="5">
+                                <div class="details-panel">
+                                    <img src="images/shrimp.jpg.png" alt="روبيان" class="food-img">
+                                    <div class="food-info">
+                                        <p><span class="icon">👨‍🍳</span> <strong>المطبخ:</strong> مغربي أصيل</p>
+                                        <p><span class="icon">⭐</span> <strong>التصنيف:</strong> أطباق فخارية ساخنة</p>
+                                        <p><span class="icon">🌿</span> <strong>المكونات:</strong> جمبري جامبو، طماطم، فلفل حار، ثوم، كزبرة، توابل الطاجن</p>
+                                        <p><span class="icon">🥣</span> <strong>الصلصة:</strong> صلصة الطماطم الحارة</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="main-row">
+                            <td><span class="badge-code">MQ-03</span></td>
+                            <td class="meal-title">مقلوبة باذنجان باللحم والمكسرات</td>
+                            <td class="price-tag">95,000 ل.س</td>
+                            <td><button type="button" class="btn-outline toggle-details">عرض التفاصيل</button></td>
+                            <td>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" class="meal-check" value="مقلوبة باذنجان باللحم والمكسرات">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr class="details-row">
+                            <td colspan="5">
+                                <div class="details-panel">
+                                    <img src="images/maqluba.jpg.png" alt="مقلوبة" class="food-img">
+                                    <div class="food-info">
+                                        <p><span class="icon">👨‍🍳</span> <strong>المطبخ:</strong> شامي عريق</p>
+                                        <p><span class="icon">⭐</span> <strong>التصنيف:</strong> أطباق الأرز الرئيسية</p>
+                                        <p><span class="icon">🌿</span> <strong>المكونات:</strong> أرز بسمتي، باذنجان مقلي، قطع لحم خروف طرية، لوز محمص</p>
+                                        <p><span class="icon">🥣</span> <strong>الصلصة:</strong> تقدم مع لبن الزبادي الطازج</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="main-row">
+                            <td><span class="badge-code">GR-04</span></td>
+                            <td class="meal-title">مشاوي قصر النكهات المشكلة</td>
+                            <td class="price-tag">130,000 ل.س</td>
+                            <td><button type="button" class="btn-outline toggle-details">عرض التفاصيل</button></td>
+                            <td>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" class="meal-check" value="مشاوي قصر النكهات المشكلة">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr class="details-row">
+                            <td colspan="5">
+                                <div class="details-panel">
+                                    <img src="images/grill.jpg.png" alt="مشاوي" class="food-img">
+                                    <div class="food-info">
+                                        <p><span class="icon">👨‍🍳</span> <strong>المطبخ:</strong> شرقي</p>
+                                        <p><span class="icon">⭐</span> <strong>التصنيف:</strong> مشويات على الفحم</p>
+                                        <p><span class="icon">🌿</span> <strong>المكونات:</strong> شقف غنم، شيش طاووق، كباب أورفلي، خضار مشوية</p>
+                                        <p><span class="icon">🥣</span> <strong>الصلصة:</strong> كريم الثوم والمحمرة</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="main-row">
+                            <td><span class="badge-code">MN-05</span></td>
+                            <td class="meal-title">منسف أردني بالجميد</td>
+                            <td class="price-tag">160,000 ل.س</td>
+                            <td><button type="button" class="btn-outline toggle-details">عرض التفاصيل</button></td>
+                            <td>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" class="meal-check" value="منسف أردني بالجميد">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr class="details-row">
+                            <td colspan="5">
+                                <div class="details-panel">
+                                    <img src="images/mansaf.jpg.png" alt="منسف" class="food-img">
+                                    <div class="food-info">
+                                        <p><span class="icon">👨‍🍳</span> <strong>المطبخ:</strong> أردني أصيل</p>
+                                        <p><span class="icon">⭐</span> <strong>التصنيف:</strong> ولائم فاخرة</p>
+                                        <p><span class="icon">🌿</span> <strong>المكونات:</strong> أرز مزعفر، لحم بلدي، خبز شراك، صنوبر مقلي</p>
+                                        <p><span class="icon">🥣</span> <strong>الصلصة:</strong> شراب الجميد الكركي الأصلي</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="main-row">
+                            <td><span class="badge-code">SA-06</span></td>
+                            <td class="meal-title">سلطة فتوش الملوك</td>
+                            <td class="price-tag">35,000 ل.س</td>
+                            <td><button type="button" class="btn-outline toggle-details">عرض التفاصيل</button></td>
+                            <td>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" class="meal-check" value="سلطة فتوش الملوك">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr class="details-row">
+                            <td colspan="5">
+                                <div class="details-panel">
+                                    <img src="images/fattoush.jpg.png" alt="فتوش" class="food-img">
+                                    <div class="food-info">
+                                        <p><span class="icon">👨‍🍳</span> <strong>المطبخ:</strong> شامي</p>
+                                        <p><span class="icon">⭐</span> <strong>التصنيف:</strong> مقبلات صحية باردة</p>
+                                        <p><span class="icon">🌿</span> <strong>المكونات:</strong> خس، طماطم، خيار، فجل، نعناع، رمان، خبز مقرمش</p>
+                                        <p><span class="icon">🥣</span> <strong>الصلصة:</strong> دبس الرمان وزيت الزيتون والسماق</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="main-row">
+                            <td><span class="badge-code">HM-07</span></td>
+                            <td class="meal-title">حمص باللحمة والصنوبر</td>
+                            <td class="price-tag">45,000 ل.س</td>
+                            <td><button type="button" class="btn-outline toggle-details">عرض التفاصيل</button></td>
+                            <td>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" class="meal-check" value="حمص باللحمة والصنوبر">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr class="details-row">
+                            <td colspan="5">
+                                <div class="details-panel">
+                                    <img src="images/hummus.jpg.png" alt="حمص" class="food-img">
+                                    <div class="food-info">
+                                        <p><span class="icon">👨‍🍳</span> <strong>المطبخ:</strong> عربي</p>
+                                        <p><span class="icon">⭐</span> <strong>التصنيف:</strong> مقبلات غنية</p>
+                                        <p><span class="icon">🌿</span> <strong>المكونات:</strong> حمص مطحون ناعم، طحينة، لحم مفروم مقلي بالسمن، صنوبر</p>
+                                        <p><span class="icon">🥣</span> <strong>الصلصة:</strong> زيت زيتون بكر ممتاز</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="main-row">
+                            <td><span class="badge-code">SB-08</span></td>
+                            <td class="meal-title">فيليه سيباس على فراش السبانخ</td>
+                            <td class="price-tag">150,000 ل.س</td>
+                            <td><button type="button" class="btn-outline toggle-details">عرض التفاصيل</button></td>
+                            <td>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" class="meal-check" value="فيليه سيباس على فراش السبانخ">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr class="details-row">
+                            <td colspan="5">
+                                <div class="details-panel">
+                                    <img src="images/seabass.jpg.png" alt="سيباس" class="food-img">
+                                    <div class="food-info">
+                                        <p><span class="icon">👨‍🍳</span> <strong>المطبخ:</strong> متوسطي / راقي</p>
+                                        <p><span class="icon">⭐</span> <strong>التصنيف:</strong> المأكولات البحرية الفاخرة</p>
+                                        <p><span class="icon">🌿</span> <strong>المكونات:</strong> شريحة سيباس محمرة، أرز بالزعفران، سبانخ سوتيه</p>
+                                        <p><span class="icon">🥣</span> <strong>الصلصة:</strong> صوص الليمون والزبدة الفرنسي (Beurre Blanc)</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="main-row">
+                            <td><span class="badge-code">SW-09</span></td>
+                            <td class="meal-title">طبق شاورما عربي دبل</td>
+                            <td class="price-tag">65,000 ل.س</td>
+                            <td><button type="button" class="btn-outline toggle-details">عرض التفاصيل</button></td>
+                            <td>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" class="meal-check" value="طبق شاورما عربي دبل">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr class="details-row">
+                            <td colspan="5">
+                                <div class="details-panel">
+                                    <img src="images/shawarma.jpg.png" alt="شاورما" class="food-img">
+                                    <div class="food-info">
+                                        <p><span class="icon">👨‍🍳</span> <strong>المطبخ:</strong> سوري شعبي فاخر</p>
+                                        <p><span class="icon">⭐</span> <strong>التصنيف:</strong> أطباق الدجاج</p>
+                                        <p><span class="icon">🌿</span> <strong>المكونات:</strong> شرائح شاورما دجاج، بطاطا مقلية مقرمشة، مخلل، خبز صاج</p>
+                                        <p><span class="icon">🥣</span> <strong>الصلصة:</strong> كريمة الثوم الأصلية</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr class="main-row">
+                            <td><span class="badge-code">KN-10</span></td>
+                            <td class="meal-title">كنافة نابلسية بالجبن السايح</td>
+                            <td class="price-tag">55,000 ل.س</td>
+                            <td><button type="button" class="btn-outline toggle-details">عرض التفاصيل</button></td>
+                            <td>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" class="meal-check" value="كنافة نابلسية بالجبن السايح">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr class="details-row">
+                            <td colspan="5">
+                                <div class="details-panel">
+                                    <img src="images/kunafa.jpg.png" alt="كنافة" class="food-img">
+                                    <div class="food-info">
+                                        <p><span class="icon">👨‍🍳</span> <strong>المطبخ:</strong> حلويات شرقية</p>
+                                        <p><span class="icon">⭐</span> <strong>التصنيف:</strong> تحلية ملكية</p>
+                                        <p><span class="icon">🌿</span> <strong>المكونات:</strong> عجينة كنافة خشنة، جبن عكاوي محلى، فستق حلبي مطحون</p>
+                                        <p><span class="icon">🥣</span> <strong>الصلصة:</strong> القطر (الشيرة) الساخن</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="action-bar slide-up">
+                <button type="button" id="btn-continue" class="btn-primary btn-large glow-effect">متابعة الطلب 🛒</button>
+            </div>
+
+            <div id="order-section" class="hidden order-card fade-in">
+                <div class="order-summary">
+                    <h3>🧾 ملخص سلتك اللذيذة</h3>
+                    <ul id="selected-meals-list" class="elegant-list"></ul>
+                </div>
+
+                <div class="form-wrapper">
+                    <h3 class="form-title">✨ أكمل بيانات طلبك</h3>
+                    <form id="order-form" class="modern-form">
+                        <div class="input-group">
+                            <label for="fullName">👤 الاسم الثلاثي (عربي فقط)</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="أدخل اسمك الكريم..." required>
+                            <span class="input-focus-bg"></span>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="nationalId">🪪 الرقم الوطني (11 رقم)</label>
+                            <input type="text" id="nationalId" name="nationalId" placeholder="12345678901" required>
+                            <span class="input-focus-bg"></span>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="input-group half">
+                                <label for="dob">🎂 تاريخ الميلاد</label>
+                                <input type="date" id="dob" name="dob" required>
+                                <span class="input-focus-bg"></span>
+                            </div>
+
+                            <div class="input-group half">
+                                <label for="mobile">📱 رقم الموبايل</label>
+                                <input type="tel" id="mobile" name="mobile" dir="ltr" placeholder="09xxxxxxxx" required>
+                                <span class="input-focus-bg"></span>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">📧 البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" dir="ltr" placeholder="your@email.com" required>
+                            <span class="input-focus-bg"></span>
+                        </div>
+
+                        <button type="submit" class="btn-primary submit-btn pulse-anim">إرسال الطلب الذهبي 🚀</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>صُنع بشغف ❤️ 2026 قصر النكهات - جميع الحقوق محفوظة &copy;</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
